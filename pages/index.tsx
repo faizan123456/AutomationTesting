@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Firrst Head</h1>
-        <p>paragraph here...</p>
+        <p>paragraph here....</p>
       </main>
 
       <footer className={styles.footer}>
