@@ -54,3 +54,7 @@
     padding-right: 15px;
     padding-bottom: 15px;
     }
+  .error {
+    font-size: 1rem;
+    color:red
+  }
