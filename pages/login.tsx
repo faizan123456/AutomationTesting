@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+
 import Link from 'next/link'
 import styles from '../styles/Authentication.module.css'
 
@@ -6,7 +7,6 @@ import styles from '../styles/Authentication.module.css'
 const Login: NextPage=()=> {
     return (  
     <div className={styles.parentContainer}>    
-
 <form className={styles.loginform} style={{width:"37vw"}}  action="/action_page.php">
       <h1 className={styles.loginheading}>SIGN IN</h1>
       <div className={styles.formcontainer}>
@@ -16,7 +16,7 @@ const Login: NextPage=()=> {
         <label htmlFor="psw"><strong>Password</strong></label>
         <input className={styles.forminput} type="password" placeholder="Enter Password" name="psw" required/>
       </div>
-      <button className={styles.loginbtn} type="submit"><strong><Link href="/home"> SIGN IN</Link></strong></button>
+      <button className={styles.loginbtn} type="submit"><strong>SIGN IN</strong></button>
       <div className={styles.container}>
       </div>
       <span className={styles.psw}><Link href="/signup">Create Account</Link></span>

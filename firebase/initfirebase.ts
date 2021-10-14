@@ -2,6 +2,7 @@
 
 import firebase from 'firebase';
 
+
 const clientCredentials = {
     apiKey: "AIzaSyDFMk5OX_jVvuRHRgqC1IzHv66ebdrUIas",
     authDomain: "fir-emulator-b0345.firebaseapp.com",
@@ -15,4 +16,7 @@ const clientCredentials = {
 
 if (!firebase.apps.length) firebase.initializeApp(clientCredentials);
 
+
+export var db = firebase.firestore();
 export default firebase;
+
