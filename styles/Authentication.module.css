@@ -1,0 +1,56 @@
+.loginform {
+  border: 5px solid #f1f1f1;
+  width: 42w;
+  }
+  .parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, Arial, sans-serif;
+    height: 100vh;
+    font-size: 15px;
+  }
+  .forminput{
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+  .icon {
+  font-size: 110px;
+  display: flex;
+  justify-content: center;
+  color: #4286f4;
+  }
+  .loginbtn {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+  }
+  .loginheading{
+  text-align:center;
+  font-size:2rem;
+  }
+  .login-btn:hover {
+  opacity: 0.8;
+  }
+  .formcontainer {
+  text-align: center;
+  margin: 24px 50px 12px;
+  }
+  .container {
+  padding: 16px 0;
+  text-align:left;
+  }
+  .psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    }
