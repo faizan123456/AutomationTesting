@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-
+import firebase from 'firebase'
 
 const Home:NextPage=()=>{
     return (
