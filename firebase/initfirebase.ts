@@ -1,20 +1,20 @@
 
 
 import firebase from 'firebase';
-
+import firebaseConfig from './firebaseconfig.json'
 
 const clientCredentials = {
-    apiKey: "AIzaSyDFMk5OX_jVvuRHRgqC1IzHv66ebdrUIas",
-    authDomain: "fir-emulator-b0345.firebaseapp.com",
-    databaseURL: "https://fir-emulator-b0345-default-rtdb.firebaseio.com",
-    projectId: "fir-emulator-b0345",
-    storageBucket: "fir-emulator-b0345.appspot.com",
-    messagingSenderId: "633445818093",
-    appId: "1:633445818093:web:76dfbabed1e6c2b06f36e4",
-    measurementId: "G-T5TT868KMN"
+    apiKey: process.env.APIKEY,
+    authDomain:process.env.AUTHDOMAIN,
+    databaseURL:process.env.DATABASE_URL,
+    projectId: process.env.PROJECT_ID,
+    storageBucket:process.env.STORAGE_BUCKET,
+    messagingSenderId:process.env.MESSAGE_SENDER_ID,
+    appId:process.env.APP_ID,
+    measurementId: process.env.MEASUREMENT_ID
 }
 
-if (!firebase.apps.length) firebase.initializeApp(clientCredentials);
+if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
 
 
 export var db = firebase.firestore();
