@@ -1,6 +1,7 @@
 .loginform {
   border: 5px solid #f1f1f1;
   width: 42w;
+  padding: 1rem;
   }
   .parentContainer {
     display: flex;

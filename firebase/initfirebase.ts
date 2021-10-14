@@ -2,8 +2,8 @@
 
 import firebase from 'firebase';
 import firebaseConfig from './firebaseconfig.json'
-
 const clientCredentials = {
+
     apiKey: process.env.APIKEY,
     authDomain:process.env.AUTHDOMAIN,
     databaseURL:process.env.DATABASE_URL,
