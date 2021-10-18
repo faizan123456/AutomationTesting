@@ -12,3 +12,15 @@
     padding: 0rem 4rem 0rem 4rem;
     color: white;
 }
+.homeFormContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeInputs {
+    /* background-color: lightgray; */
+    height: 60vh;
+    width: 70%;
+    margin-top: 2vh;
+}
